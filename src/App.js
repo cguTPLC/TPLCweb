@@ -4,7 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      HI
+      <img src="CGU_Logo.png" with="600" heigh="400" alt="第一張圖片">
+      <img src="footer-logo.svg" with="600" heigh="400" alt="第二張圖片">
     </div>
   );
 }
