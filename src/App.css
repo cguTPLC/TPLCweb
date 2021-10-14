@@ -1,0 +1,11 @@
+.App {
+  background-color: rgb(245, 217, 181);
+  border:1px;
+  border-radius: .5em;
+  padding:10px;
+}
+
+.foot {
+  position: absolute;
+  bottom: 120px;
+}
