@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/TPLCweb/static/css/main.a617e044.chunk.css",
-    "main.js": "/TPLCweb/static/js/main.9d1b07e4.chunk.js",
-    "main.js.map": "/TPLCweb/static/js/main.9d1b07e4.chunk.js.map",
-    "runtime-main.js": "/TPLCweb/static/js/runtime-main.75d2a8a6.js",
-    "runtime-main.js.map": "/TPLCweb/static/js/runtime-main.75d2a8a6.js.map",
-    "static/js/2.feeb357d.chunk.js": "/TPLCweb/static/js/2.feeb357d.chunk.js",
-    "static/js/2.feeb357d.chunk.js.map": "/TPLCweb/static/js/2.feeb357d.chunk.js.map",
-    "static/js/3.5eff4e14.chunk.js": "/TPLCweb/static/js/3.5eff4e14.chunk.js",
-    "static/js/3.5eff4e14.chunk.js.map": "/TPLCweb/static/js/3.5eff4e14.chunk.js.map",
+    "main.css": "/TPLCweb/static/css/main.88b8323e.chunk.css",
+    "main.js": "/TPLCweb/static/js/main.732256f9.chunk.js",
+    "main.js.map": "/TPLCweb/static/js/main.732256f9.chunk.js.map",
+    "runtime-main.js": "/TPLCweb/static/js/runtime-main.4593f92b.js",
+    "runtime-main.js.map": "/TPLCweb/static/js/runtime-main.4593f92b.js.map",
+    "static/js/2.681fd761.chunk.js": "/TPLCweb/static/js/2.681fd761.chunk.js",
+    "static/js/2.681fd761.chunk.js.map": "/TPLCweb/static/js/2.681fd761.chunk.js.map",
+    "static/js/3.3075fc67.chunk.js": "/TPLCweb/static/js/3.3075fc67.chunk.js",
+    "static/js/3.3075fc67.chunk.js.map": "/TPLCweb/static/js/3.3075fc67.chunk.js.map",
     "index.html": "/TPLCweb/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/TPLCweb/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.feeb357d.chunk.js.LICENSE.txt": "/TPLCweb/static/js/2.feeb357d.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/TPLCweb/static/media/logo.6ce24c58.svg"
+    "static/css/main.88b8323e.chunk.css.map": "/TPLCweb/static/css/main.88b8323e.chunk.css.map",
+    "static/js/2.681fd761.chunk.js.LICENSE.txt": "/TPLCweb/static/js/2.681fd761.chunk.js.LICENSE.txt",
+    "static/media/CGU_Logo.a7201d8a.png": "/TPLCweb/static/media/CGU_Logo.a7201d8a.png",
+    "static/media/footer-logo.eff562d1.svg": "/TPLCweb/static/media/footer-logo.eff562d1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.75d2a8a6.js",
-    "static/js/2.feeb357d.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.9d1b07e4.chunk.js"
+    "static/js/runtime-main.4593f92b.js",
+    "static/js/2.681fd761.chunk.js",
+    "static/css/main.88b8323e.chunk.css",
+    "static/js/main.732256f9.chunk.js"
   ]
 }
