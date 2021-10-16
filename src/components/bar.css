@@ -1,7 +1,7 @@
 .logo{
     position: relative;
     top: 30px;
-    left: 100px;
+    left: 10%;
     font-family:DFKai-sb;
     text-decoration:none;
     font-size:40px;
@@ -19,7 +19,7 @@
     padding: 0px;
 }
 
-.box{
+.animate-box{
     position:absolute;
     left:0;
     width:100%;
@@ -28,10 +28,22 @@
     animation-name:oxxo;
     animation-duration:2s;
 }
-.animate-bar{
-    animation-name:oxxo;
-    animation-duration:2s;
-    animation-play-state:paused;
+
+.bar{
+    position:fixed;
+    width:100%;
+    top:0px;
+    left:0px;
+    background-color: rgb(252, 224, 187);
+}
+
+ul{
+    position:fixed;
+    right:10%;
+}
+
+ul li{
+    display:inline;
 }
 
 @keyframes oxxo{
@@ -39,6 +51,7 @@
         top:0px;
     }
     90%{
-        top:40px;
+        top:30px;
+        animation-play-state: paused;
     }
 }
