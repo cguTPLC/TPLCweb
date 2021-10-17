@@ -25,19 +25,19 @@ export default function bar() {
                     <li>
                         <div className="button">
                           <div className="circle"></div>
-                          <a href="/" style={style}>Home</a>
+                          <Link to="/" style={style}>Home</Link>
                         </div>
                     </li>
                     <li>
                         <div className="button">
                           <div className="circle"></div>
-                          <a href="/about" style={style}>About</a>
+                          <Link to="/about" style={style}>About</Link>
                         </div>
                     </li>
                     <li>
                         <div className="button">
                           <div className="circle"></div>
-                          <a href="/users" style={style}>Users</a>
+                          <Link to="/users" style={style}>Users</Link>
                         </div>
                     </li>
                 </ul>
