@@ -5,7 +5,7 @@ import { BrowserRouter as Router,Route,Link } from 'react-router-dom'
 
 export default function bar() {
   return (
-    <div className="bar">
+    <div className="shadow">
       <span className="animate-box"></span>
       <div>
         <div className="logo">
