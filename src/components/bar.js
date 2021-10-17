@@ -3,6 +3,10 @@ import React from 'react'
 import CGU_Logo from '../photo/CGU_Logo.png'
 import { BrowserRouter as Router,Route,Link } from 'react-router-dom'
 
+const style = {
+  textDecoration: 'none',
+};
+
 export default function bar() {
   return (
     <div className="shadow">
@@ -17,15 +21,24 @@ export default function bar() {
         <Router>
           <div>
             <nav>
-                <ul classNmae='Header_navbar'>
+                <ul classNmae='Header_navbar' >
                     <li>
-                        <Link to="/">Home</Link>
+                        <div className="button">
+                          <div className="circle"></div>
+                          <a href="/" style={style}>Home</a>
+                        </div>
                     </li>
                     <li>
-                        <Link to="/about">About</Link>
+                        <div className="button">
+                          <div className="circle"></div>
+                          <a href="/about" style={style}>About</a>
+                        </div>
                     </li>
                     <li>
-                        <Link to="/users">Users</Link>
+                        <div className="button">
+                          <div className="circle"></div>
+                          <a href="/users" style={style}>Users</a>
+                        </div>
                     </li>
                 </ul>
             </nav>
