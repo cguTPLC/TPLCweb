@@ -18,5 +18,12 @@
     position:absolute;
     display:inline;
     right:5px;
-    top:80%;
+    top:77%;
+}
+
+.github{
+    position:absolute;
+    display:inline;
+    right:350px;
+    top:75%;
 }
