@@ -25,27 +25,27 @@ export default function bar() {
                     <li>
                         <div className="button">
                           <div className="circle"></div>
-                          <Link to="/" style={style}>Home</Link>
+                          <Link to="/TPLCweb" style={style}>Home</Link>
                         </div>
                     </li>
                     <li>
                         <div className="button">
                           <div className="circle"></div>
-                          <Link to="/about" style={style}>About</Link>
+                          <Link to="/TPLCweb/about" style={style}>About</Link>
                         </div>
                     </li>
                     <li>
                         <div className="button">
                           <div className="circle"></div>
-                          <Link to="/users" style={style}>Users</Link>
+                          <Link to="/TPLCweb/users" style={style}>Users</Link>
                         </div>
                     </li>
                 </ul>
             </nav>
 
-            <Route path="/" exact component={Index} />
-            <Route path="/about"  component={About} />
-            <Route path="/users"  component={Users} />
+            <Route path="/TPLCweb" exact component={Index} />
+            <Route path="/TPLCweb/about" component={About} />
+            <Route path="/TPLCweb/users" component={Users} />
               
           </div>
         </Router>
