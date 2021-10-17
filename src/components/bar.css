@@ -15,7 +15,7 @@
     position: relative;
     top: -60px;
     left: 35%;
-
+    color: rgb(50, 50, 50);
 }
 
 .animate-box{
@@ -47,7 +47,6 @@
     font-weight: 700;
     letter-spacing: 0.1em;
     margin: 30px auto;
-    color: rgb(100, 100, 100);
 }
 .shadow:before, .shadow:after{
     z-index: -1;
