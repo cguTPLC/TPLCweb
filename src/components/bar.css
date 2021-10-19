@@ -93,8 +93,12 @@ ul li{
 
 ul a{
     color:rgb(128, 128, 128);
+    padding:0.25em 1.5em;/*點擊範圍*/
 }
 
+.circle .active{
+    position:top;
+}
 
 @keyframes oxxo{
     0%{
