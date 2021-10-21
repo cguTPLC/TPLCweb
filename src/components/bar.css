@@ -27,6 +27,16 @@
     animation-name:oxxo;
     animation-duration:2s;
 }
+
+@keyframes oxxo{
+    0%{
+        top:0px;
+    }
+    90%{
+        top:30px;
+    }
+}
+
 /*
 .bar{
     position:fixed;
@@ -97,19 +107,7 @@ ul.Header_navbar a{
     padding:0.25em 1.5em;/*點擊範圍*/
 }
 
-.circle .active{
-    width: 200%;
-    height: 500%;
-}
 
-@keyframes oxxo{
-    0%{
-        top:0px;
-    }
-    90%{
-        top:30px;
-    }
-}
 
 
 .button{
@@ -135,7 +133,7 @@ ul.Header_navbar a{
 
 .button a{
     position: relative;
-    transition: all .45s ease-Out;
+    transition: all .3s ease-Out;
 }
 
 .circle{
@@ -146,7 +144,7 @@ ul.Header_navbar a{
     border-radius: 50%;
     background: rgb(200, 200, 200);
     position: absolute;
-    transition: all .5s ease-Out;
+    transition: all .4s ease-Out;
     top: 20px;
     left: 70px;
 }
@@ -161,6 +159,7 @@ ul.Header_navbar a{
   
 .button:hover a {
     color: rgb(255, 255, 255);
+    text-decoration:underline;
 }
 
 button{
