@@ -1,0 +1,18 @@
+ul.left-table{
+    display:inline-block;
+    position: relative;
+    list-style-type: none;
+    top:0px;
+}
+ul.left-table>li{
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 26px;
+    padding:5px;
+    cursor: pointer;
+}
+ul.left-table>li:hover,
+ul.left-table>li:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em ;
+  transform: translateY(-0.25em);
+}

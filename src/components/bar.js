@@ -21,7 +21,7 @@ export default function bar() {
         </div>
           <div>
             <nav>
-                <ul classNmae='Header_navbar'>
+                <ul className="Header_navbar">
                     <li>
                         <div className="button">
                           <div className="circle"></div>
