@@ -1,0 +1,23 @@
+h1{
+    text-align:center;
+}
+
+.introduce{
+    position:relative;
+    width:70%;
+    overflow:auto;
+    margin:1px auto;
+}
+
+.poetry{
+    font-size: 35px;
+}
+
+.about{
+    text-align: center;
+    font-size: 25px;
+}
+
+.introduce>.left{
+    float:left;
+}

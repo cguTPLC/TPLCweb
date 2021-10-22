@@ -29,7 +29,7 @@ export default function bar() {
                           to="/TPLCweb"
                           style={style}
                           activeClassName="active"
-                          >Home</Link>
+                          >首頁</Link>
                         </div>
                     </li>
                     <li>
@@ -39,7 +39,7 @@ export default function bar() {
                           to="/TPLCweb/about" 
                           style={style}
                           activeClassName="active"
-                          >About</Link>
+                          >作品欣賞</Link>
                         </div>
                     </li>
                     <li>
@@ -49,7 +49,7 @@ export default function bar() {
                           to="/TPLCweb/users" 
                           style={style}
                           activeClassName="active"
-                          >Users</Link>
+                          >生活影像</Link>
                         </div>
                     </li>
                 </ul>
