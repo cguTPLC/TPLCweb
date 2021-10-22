@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/TPLCweb/static/css/main.ddb331d9.chunk.css",
-    "main.js": "/TPLCweb/static/js/main.e81fe958.chunk.js",
-    "main.js.map": "/TPLCweb/static/js/main.e81fe958.chunk.js.map",
-    "runtime-main.js": "/TPLCweb/static/js/runtime-main.d415a4f0.js",
-    "runtime-main.js.map": "/TPLCweb/static/js/runtime-main.d415a4f0.js.map",
-    "static/js/2.1eee560d.chunk.js": "/TPLCweb/static/js/2.1eee560d.chunk.js",
-    "static/js/2.1eee560d.chunk.js.map": "/TPLCweb/static/js/2.1eee560d.chunk.js.map",
-    "static/js/3.481a2a73.chunk.js": "/TPLCweb/static/js/3.481a2a73.chunk.js",
-    "static/js/3.481a2a73.chunk.js.map": "/TPLCweb/static/js/3.481a2a73.chunk.js.map",
+    "main.css": "/TPLCweb/static/css/main.c6d95c2d.chunk.css",
+    "main.js": "/TPLCweb/static/js/main.3ad16c95.chunk.js",
+    "main.js.map": "/TPLCweb/static/js/main.3ad16c95.chunk.js.map",
+    "runtime-main.js": "/TPLCweb/static/js/runtime-main.70803870.js",
+    "runtime-main.js.map": "/TPLCweb/static/js/runtime-main.70803870.js.map",
+    "static/js/2.8cb23e41.chunk.js": "/TPLCweb/static/js/2.8cb23e41.chunk.js",
+    "static/js/2.8cb23e41.chunk.js.map": "/TPLCweb/static/js/2.8cb23e41.chunk.js.map",
+    "static/js/3.3de42faa.chunk.js": "/TPLCweb/static/js/3.3de42faa.chunk.js",
+    "static/js/3.3de42faa.chunk.js.map": "/TPLCweb/static/js/3.3de42faa.chunk.js.map",
     "index.html": "/TPLCweb/index.html",
-    "static/css/main.ddb331d9.chunk.css.map": "/TPLCweb/static/css/main.ddb331d9.chunk.css.map",
-    "static/js/2.1eee560d.chunk.js.LICENSE.txt": "/TPLCweb/static/js/2.1eee560d.chunk.js.LICENSE.txt",
+    "static/css/main.c6d95c2d.chunk.css.map": "/TPLCweb/static/css/main.c6d95c2d.chunk.css.map",
+    "static/js/2.8cb23e41.chunk.js.LICENSE.txt": "/TPLCweb/static/js/2.8cb23e41.chunk.js.LICENSE.txt",
     "static/media/CGU_Logo.a7201d8a.png": "/TPLCweb/static/media/CGU_Logo.a7201d8a.png",
     "static/media/footer-logo.eff562d1.svg": "/TPLCweb/static/media/footer-logo.eff562d1.svg",
     "static/media/github.1c95b85d.png": "/TPLCweb/static/media/github.1c95b85d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d415a4f0.js",
-    "static/js/2.1eee560d.chunk.js",
-    "static/css/main.ddb331d9.chunk.css",
-    "static/js/main.e81fe958.chunk.js"
+    "static/js/runtime-main.70803870.js",
+    "static/js/2.8cb23e41.chunk.js",
+    "static/css/main.c6d95c2d.chunk.css",
+    "static/js/main.3ad16c95.chunk.js"
   ]
 }
