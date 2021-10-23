@@ -43,5 +43,5 @@
 }
 
 .slideshowDot.active {
-  background-color: #6a0dad;
+  background-color: hsl(34, 100%, 50%);
 }
