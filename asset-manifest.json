@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/TPLCweb/static/css/main.c6d95c2d.chunk.css",
-    "main.js": "/TPLCweb/static/js/main.3ad16c95.chunk.js",
-    "main.js.map": "/TPLCweb/static/js/main.3ad16c95.chunk.js.map",
+    "main.css": "/TPLCweb/static/css/main.09268a6e.chunk.css",
+    "main.js": "/TPLCweb/static/js/main.63dab256.chunk.js",
+    "main.js.map": "/TPLCweb/static/js/main.63dab256.chunk.js.map",
     "runtime-main.js": "/TPLCweb/static/js/runtime-main.70803870.js",
     "runtime-main.js.map": "/TPLCweb/static/js/runtime-main.70803870.js.map",
     "static/js/2.8cb23e41.chunk.js": "/TPLCweb/static/js/2.8cb23e41.chunk.js",
@@ -10,16 +10,24 @@
     "static/js/3.3de42faa.chunk.js": "/TPLCweb/static/js/3.3de42faa.chunk.js",
     "static/js/3.3de42faa.chunk.js.map": "/TPLCweb/static/js/3.3de42faa.chunk.js.map",
     "index.html": "/TPLCweb/index.html",
-    "static/css/main.c6d95c2d.chunk.css.map": "/TPLCweb/static/css/main.c6d95c2d.chunk.css.map",
+    "static/css/main.09268a6e.chunk.css.map": "/TPLCweb/static/css/main.09268a6e.chunk.css.map",
     "static/js/2.8cb23e41.chunk.js.LICENSE.txt": "/TPLCweb/static/js/2.8cb23e41.chunk.js.LICENSE.txt",
     "static/media/CGU_Logo.a7201d8a.png": "/TPLCweb/static/media/CGU_Logo.a7201d8a.png",
+    "static/media/banner01.3cee6709.jpg": "/TPLCweb/static/media/banner01.3cee6709.jpg",
+    "static/media/banner02.b6d7528f.jpg": "/TPLCweb/static/media/banner02.b6d7528f.jpg",
+    "static/media/banner03.ec7e768d.jpg": "/TPLCweb/static/media/banner03.ec7e768d.jpg",
+    "static/media/banner04.1a2a65d4.jpg": "/TPLCweb/static/media/banner04.1a2a65d4.jpg",
+    "static/media/banner05.1ae58bcb.jpg": "/TPLCweb/static/media/banner05.1ae58bcb.jpg",
+    "static/media/banner06.000a4fc0.jpg": "/TPLCweb/static/media/banner06.000a4fc0.jpg",
+    "static/media/banner07.0fe50410.jpg": "/TPLCweb/static/media/banner07.0fe50410.jpg",
+    "static/media/banner08.5222ee47.jpg": "/TPLCweb/static/media/banner08.5222ee47.jpg",
     "static/media/footer-logo.eff562d1.svg": "/TPLCweb/static/media/footer-logo.eff562d1.svg",
     "static/media/github.1c95b85d.png": "/TPLCweb/static/media/github.1c95b85d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.70803870.js",
     "static/js/2.8cb23e41.chunk.js",
-    "static/css/main.c6d95c2d.chunk.css",
-    "static/js/main.3ad16c95.chunk.js"
+    "static/css/main.09268a6e.chunk.css",
+    "static/js/main.63dab256.chunk.js"
   ]
 }
