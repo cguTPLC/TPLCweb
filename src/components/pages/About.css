@@ -12,7 +12,7 @@ ul.left-table>li{
   font-size: 26px;
   padding:0px 5px 0px 100px;
   cursor: pointer;
-
+  
 }
 
 ul.left-table>li:hover,
@@ -21,6 +21,10 @@ ul.left-table>li:focus {
   transform: scale(1.1);
   border:1px;
   border-style:solid;
+}
+
+ul.right-table{
+  display:inline-block;
 }
 
 li.red{
