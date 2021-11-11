@@ -104,13 +104,14 @@ ul.Header_navbar li{
 
 ul.Header_navbar a{
     color:rgb(90, 90, 90);
-    padding:0.25em 0.93em;/*點擊範圍*/
+    padding:0.25em 0.85em 0.25em 0.85em;/*點擊範圍*/
 }
 
 
 
 
 .button{
+    text-align:center;
     display: inline-flex;
     height: 40px;
     width: 150px;
@@ -132,6 +133,7 @@ ul.Header_navbar a{
 }
 
 .button a{
+    width:150px;
     position: relative;
     transition: all .3s ease-Out;
 }

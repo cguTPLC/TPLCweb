@@ -1,6 +1,15 @@
 import React from 'react'
 import { useState } from 'react';
 import './About.css'
+import Page109 from './About/Page109'
+import Page108 from './About/Page108'
+import Page107 from './About/Page107'
+import Page106 from './About/Page106'
+import Page105 from './About/Page105'
+import Page104 from './About/Page104'
+import Page103 from './About/Page103'
+import Page102 from './About/Page102'
+
 
 function About() {
     const [year, setYear] = useState('109');
@@ -9,34 +18,34 @@ function About() {
         <>
             <div className='collection-content'>
                 <ul className='left-table'>
-                    <li className='red'    onClick={() => setYear('109')}>109</li>
-                    <li className='orange' onClick={() => setYear('108')}>108</li>
-                    <li className='yellow' onClick={() => setYear('107')}>107</li>
-                    <li className='green'  onClick={() => setYear('106')}>106</li>
-                    <li className='blue'   onClick={() => setYear('105')}>105</li>
-                    <li className='indigo' onClick={() => setYear('104')}>104</li>
-                    <li className='purple' onClick={() => setYear('103')}>103</li>
-                    <li className='red'    onClick={() => setYear('102')}>102</li>
+                    <li className='red'    onClick={() => setYear('109')}><div>109</div></li>
+                    <li className='orange' onClick={() => setYear('108')}><div>108</div></li>
+                    <li className='yellow' onClick={() => setYear('107')}><div>107</div></li>
+                    <li className='green'  onClick={() => setYear('106')}><div>106</div></li>
+                    <li className='blue'   onClick={() => setYear('105')}><div>105</div></li>
+                    <li className='indigo' onClick={() => setYear('104')}><div>104</div></li>
+                    <li className='purple' onClick={() => setYear('103')}><div>103</div></li>
+                    <li className='red'    onClick={() => setYear('102')}><div>102</div></li>
                 </ul>
-                <div className='download-Link'>
+                <div className='downloadSheet container'>
                 {(() => {
                 switch (year) {
                     case '109':
-                        return <a href="https://drive.google.com/drive/folders/1DmWfHRwIH2QwrC_ngmXjLNqRwZZBtGfk?usp=sharing">109下載</a>
+                        return <Page109/>
                     case '108':
-                        return <a href="https://drive.google.com/drive/folders/1RmmX4xXE_EUHndItfxmy3lcIMj9tMtJg?usp=sharing">108下載</a>
+                        return <Page108/>
                     case '107':
-                        return <a href="https://drive.google.com/drive/folders/1J-Ia11Xm7tnhuueR7RWYQ8dmEvmmcSKr?usp=sharing">107下載</a>
+                        return <Page107/>
                     case '106':
-                        return <a href="https://drive.google.com/drive/folders/1CLNcw1NFw7FSHb-BJQVLgUzDp9NG_-cX?usp=sharing">106下載</a>
+                        return <Page106/>
                     case '105':
-                        return <a href="https://drive.google.com/drive/folders/1KJqQOsNUj7Da6K3wmk2rN1l6DX5vEkuu?usp=sharing">105下載</a>
+                        return <Page105/>
                     case '104':
-                        return <a href="https://drive.google.com/drive/folders/1wKwq-2po7Sr5_crHSvxcgITwnmO4RxiP?usp=sharing">104下載</a>
+                        return <Page104/>
                     case '103':
-                        return <a href="https://drive.google.com/drive/folders/1DOz8VtFmZbXEJIRmCN0ph3hTd0FtgaOE?usp=sharing">103下載</a>
+                        return <Page103/>
                     case '102':
-                        return <a href="https://drive.google.com/drive/folders/1VtRy-BTHqLwYyDhMBMib-7hq7iF8AIvS?usp=sharing">102下載</a>
+                        return <Page102/>
                 }})()}
                 </div>
             </div>
@@ -45,7 +54,6 @@ function About() {
 }
 
 export default About;
-
 
 {/* <ul>
 <ul className='right-table'>

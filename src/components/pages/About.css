@@ -9,56 +9,45 @@ ul.left-table{
 ul.left-table>li{
   margin: 1px 0px 1px 0px;
   font-family: Comic Sans MS, Comic Sans, cursive;
-  font-size: 26px;
-  padding:0px 5px 0px 100px;
+  font-size: 28px;
+  padding:0px 10px 0px 10px;
   cursor: pointer;
-  
 }
 
 ul.left-table>li:hover,
 ul.left-table>li:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em ;
-  transform: scale(1.1);
-  border:1px;
-  border-style:solid;
+  box-shadow: 0 0.5em 0.5em -0.4em black;
+  transform: scale(1.2);
+  outline: 1px solid rgb(0, 0, 0);
+  
 }
 
 ul.right-table{
   display:inline-block;
 }
 
-li.red{
-  background-color:hsl(0, 100%, 90%);
-}
-li.orange{
-  background-color:hsl(39, 100%, 90%);
-}
-li.yellow{
-  background-color:hsl(60, 100%, 90%);
-}
-li.green{
-  background-color:hsl(120, 100%, 90%);
-}
-li.blue{
-  background-color:hsl(240, 100%, 90%);
-}
-li.indigo{
-  background-color:hsl(275, 100%, 90%);
-}
-li.purple{
-  background-color:hsl(300, 100%, 90%);
-}
+.left-table li:nth-child(1){background-color:hsl(0, 100%, 90%);  }
+.left-table li:nth-child(2){background-color:hsl(39, 100%, 90%); }
+.left-table li:nth-child(3){background-color:hsl(60, 100%, 90%); }
+.left-table li:nth-child(4){background-color:hsl(120, 100%, 90%);}
+.left-table li:nth-child(5){background-color:hsl(240, 100%, 90%);}
+.left-table li:nth-child(6){background-color:hsl(275, 100%, 90%);}
+.left-table li:nth-child(7){background-color:hsl(300, 100%, 90%);}
+.left-table li:nth-child(8){background-color:hsl(0, 100%, 90%);  }
 
-.download-Link{
+.downloadSheet{
   display:inline-block;
-  position:relative;
-  margin:0px 10% ;
-  width:50%;
+  position:absolute;
+  margin:0px 5%;
+  width:80%;
+  top:0px;
+  background-color: rgb(238, 238, 238);
 }
 
 
 
-.download-Link a{
+.downloadSheet a{
   text-decoration:none;
   color: #999999; 
 }
+
