@@ -1,0 +1,12 @@
+.ca{
+    width:400px; 
+    height:250px;
+    overflow:visible;
+}
+.ca img{
+    transform:scale(1,1);
+    transition: all 0.5s ease-out;
+}
+.ca img:hover{
+    transform:scale(1.1,1.1);
+}
