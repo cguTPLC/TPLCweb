@@ -1,97 +1,55 @@
 import React from 'react'
-import img1 from './Users/photo/投影片1.JPG'
-import img2 from './Users/photo/投影片2.JPG'
-import img3 from './Users/photo/投影片3.JPG'
-import img4 from './Users/photo/投影片4.JPG'
-import img5 from './Users/photo/投影片5.JPG'
-import img6 from './Users/photo/投影片6.JPG'
-import img7 from './Users/photo/投影片7.JPG'
-import img8 from './Users/photo/投影片8.JPG'
-import img9 from './Users/photo/投影片9.JPG'
-import img10 from './Users/photo/投影片10.JPG'
-import img11 from './Users/photo/投影片11.JPG'
-import img12 from './Users/photo/投影片12.JPG'
-import img13 from './Users/photo/投影片13.JPG'
-import img14 from './Users/photo/投影片14.JPG'
-import img15 from './Users/photo/投影片15.JPG'
-import img16 from './Users/photo/投影片16.JPG'
-import img17 from './Users/photo/投影片17.JPG'
-import img18 from './Users/photo/投影片18.JPG'
-import img19 from './Users/photo/投影片19.JPG'
-import img20 from './Users/photo/投影片20.JPG'
-import img21 from './Users/photo/投影片21.JPG'
+import { useState } from 'react';
 import './Users.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Page109 from './Users/Page109'
+import Page108 from './Users/Page108'
+import Page107 from './Users/Page107'
+import Page106 from './Users/Page106'
+import Page105 from './Users/Page105'
+import Page104 from './Users/Page104'
+import Page103 from './Users/Page103'
+import Page102 from './Users/Page102'
 
-const Page109 = () => {
+
+function Users() {
+    const [year, setYear] = useState('109');
     return (
-        <div className='row'>
-            <div className='col-6 m-3 ca c'>
-                <img src={img1} width='400' height='250' ></img>
+        <>
+            <div className='collection-content'>
+                <ul className='left-table'>
+                    <li className='red'    onClick={() => setYear('109')}><div>109</div></li>
+                    <li className='orange' onClick={() => setYear('108')}><div>108</div></li>
+                    <li className='yellow' onClick={() => setYear('107')}><div>107</div></li>
+                    <li className='green'  onClick={() => setYear('106')}><div>106</div></li>
+                    <li className='blue'   onClick={() => setYear('105')}><div>105</div></li>
+                    <li className='indigo' onClick={() => setYear('104')}><div>104</div></li>
+                    <li className='purple' onClick={() => setYear('103')}><div>103</div></li>
+                    <li className='red'    onClick={() => setYear('102')}><div>102</div></li>
+                </ul>
+                <div className='downloadSheet container'>
+                {(() => {
+                switch (year) {
+                    case '109':
+                        return <Page109/>
+                    case '108':
+                        return <Page108/>
+                    case '107':
+                        return <Page107/>
+                    case '106':
+                        return <Page106/>
+                    case '105':
+                        return <Page105/>
+                    case '104':
+                        return <Page104/>
+                    case '103':
+                        return <Page103/>
+                    case '102':
+                        return <Page102/>
+                }})()}
+                </div>
             </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img2} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img3} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img4} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img5} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img6} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img7} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img8} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img9} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img10} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img11} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img12} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img13} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img14} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img15} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img16} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img17} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img18} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img19} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img20} width='400' height='250' ></img>
-            </div>
-            <div className='col-6 m-3 ca'>
-                <img src={img21} width='400' height='250' ></img>
-            </div>
-            
-        </div>
+        </>
     )
 }
 
-export default Page109
+export default Users;

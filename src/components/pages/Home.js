@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Home = () => {
     return(
     <>
+        
         <h1>「臺灣詩•鄉土情」課程</h1>
         <h1>長庚八景詩及教學影像數位化資料庫</h1>
         <div className='introduce container'>
